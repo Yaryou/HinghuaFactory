@@ -21,7 +21,7 @@
 
 ---
 name: Pouleng
-version: "2019.5.5.1"
+version: "2019.5.27.1"
 use_preset_vocabulary: false
 sort: by_weight
 ...
@@ -53,7 +53,7 @@ sort: by_weight
 本地儂	bue3 le5 nang2
 莆仙話	pou2 seng1 ua5
 莆田話	pou2 leng2 ua5
-# 促化人稱 coeh6 hua4 zing1 ning1
+# 促化人稱 coeh6 hua4 zing2 ning1
 我	guoh8
 汝	dyh8
 伊	ih8	5000
@@ -123,6 +123,7 @@ sort: by_weight
 撐	ta1	5000
 垞	ta2
 牚	ta4
+𩏠	ta4
 皟	ta5	5000
 澈	ta5	5000
 若	{na}
@@ -610,7 +611,7 @@ sort: by_weight
 紥	zah6
 眨	zah6
 雜	zah7	500
-鍘	zah7
+鍘	zah7	500
 察	cah6	450
 擦	cah6	500
 插	cah6	500
@@ -1071,6 +1072,7 @@ sort: by_weight
 先	se1	5100
 前	se2	5100
 截	se2	5100
+㔃	se2	5100
 洗	se3	5100
 細	se4	5100
 婿	se4
@@ -1122,9 +1124,12 @@ sort: by_weight
 蓋	ke4	5000
 快	ke4	5000
 喫	ke4	5000
+嚙	ke4
 毽	ke4	5000
 契	ke4
+㪠	ke4
 篋	ke5	5000
+𨂰	ke5
 擠	ke5	5000
 研	nge2
 眼	nge3	5000
@@ -1151,7 +1156,7 @@ sort: by_weight
 閒	e2	4900
 耶	e2
 矮	e3	4900
-躷	e3
+躷	e3	450
 唩	e3
 覸	e4	4900
 縊	e4
@@ -1159,6 +1164,7 @@ sort: by_weight
 瞖	e4
 裔	e4
 會	e5	5000
+解	e5	5000
 衛	e5	4900
 兮	{e}	5000
 的	{e}	5000
@@ -1534,6 +1540,7 @@ sort: by_weight
 筵	eng2
 涎	eng2 
 演	eng3	5000
+𢴍	eng3
 燕	eng4	5000
 宴	eng4
 豔	eng4
@@ -1568,7 +1575,8 @@ sort: by_weight
 螺	lee2
 腡	lee2
 挖	lee3
-鑢	lee4
+鑢	lee4	500
+摖	lee4
 災	zee1
 全	zee2	5000
 鋤	zee2
@@ -1660,7 +1668,8 @@ sort: by_weight
 月	goeh7	5000
 玥	goeh7
 獄	goeh7	5000
-局	goeh7
+局	goeh7	500
+焗	goeh7
 曲	koeh6
 麴	koeh6
 缺	koeh6	5000
@@ -1745,6 +1754,7 @@ sort: by_weight
 喘	coeng3	5000
 嗆	coeng4
 銃	coeng5	5000
+㳘	coeng5	5000
 宣	soeng1	4500
 喧	soeng1
 嵩	soeng1
@@ -1960,6 +1970,7 @@ sort: by_weight
 科	ko1
 洘	ko3	5000
 魺	ko4
+𣹇	ko4
 好	ho3	5000
 貨	ho4	5000
 號	ho5	5000
@@ -1984,6 +1995,7 @@ sort: by_weight
 撲	poh6
 𧿳	poh6
 [足弗]	poh6
+䟔	poh6	500
 突	doh7
 燙	toh6	500
 禿	toh6
@@ -2131,7 +2143,7 @@ sort: by_weight
 煇	gong2
 𤉙	gong2	5000
 拳	gong2	5000
-羣	gong2	5000
+群	gong2	5000
 滾	gong3	5000
 袞	gong3
 棍	gong4
@@ -2277,7 +2289,7 @@ sort: by_weight
 滔	tor1
 叨	tor1
 桃	tor2
-濌	tor2	5000
+沓	tor2	5000
 討	tor3
 妥	tor3
 䖳	tor4	5000
@@ -2364,6 +2376,7 @@ sort: by_weight
 歌	gor1	5000
 哥	gor1
 銜	gor2	5000
+嗛	gor2	5000
 芽	gor2	5000
 牙	gor2	5000
 衙	gor2
@@ -2614,6 +2627,7 @@ sort: by_weight
 捧	porng2
 蓬	porng2
 肨	porng3
+𦜍	porng4
 碰	porng5
 盼	porng5
 膨	porng5	5000
@@ -3075,7 +3089,7 @@ sort: by_weight
 痹	bi4	5000
 費	bi4
 備	bi5
-䘷	bi5
+䘷	bi5	5000
 蓖	bi5
 味	bi5	5000
 未	bi5
@@ -3083,7 +3097,7 @@ sort: by_weight
 沕	bi5	5000
 鼻	bi5	5000
 披	pi1
-胚	pi1
+坯	pi1
 砒	pi1
 皮	pi2
 疲	pi2
@@ -3142,7 +3156,7 @@ sort: by_weight
 柅	ni1
 怩	ni1
 尼	ni2
-泥	ni2
+泥	ni2	5000
 呢	ni2
 [毋挃]	ni2
 你	ni3
@@ -3171,14 +3185,15 @@ sort: by_weight
 俐	li5
 內	li5	5000
 厲	li5
-支	zi1
+支	zi1	100
 吱	zi1
 肢	zi1
 脂	zi1
 芝	zi1
 膣	zi1
-兒	zi2
+兒	zi2	100
 而	zi2
+跦	zi2	100
 躋	zi2
 止	zi3
 只	zi3
@@ -3187,7 +3202,7 @@ sort: by_weight
 耳	zi3	5000
 爾	zi3
 旨	zi3
-指	zi3
+指	zi3	100
 址	zi3
 籽	zi3	5000
 紫	zi3
@@ -3195,7 +3210,7 @@ sort: by_weight
 子	zi3	5000
 趾	zi3
 你	zi3
-志	zi4
+志	zi4	100
 痣	zi4	10%
 至	zi4
 誌	zi4
@@ -4353,7 +4368,7 @@ sort: by_weight
 蔻	kieu4	
 簆	kieu4	
 抾	kieu5
-撓	ngieu1	
+撓	ngieu1	1000
 香	hieu1	5000
 鄉	hieu1	5000
 囂	hieu1	
@@ -4366,7 +4381,7 @@ sort: by_weight
 浮	hieu2	
 曉	hieu3	
 否	hieu3	
-僥	hieu3	
+僥	hieu3
 響	hieu3	5000
 向	hieu4	5000
 嚮	hieu4	5000
@@ -4545,6 +4560,8 @@ sort: by_weight
 焰	ieng5	5000
 焱	ieng5
 豔	ieng5
+#iang韻
+娘	niang2
 # u韻
 無	bu2
 蕪	bu2
@@ -4864,7 +4881,7 @@ sort: by_weight
 佩	bue5
 狽	bue5
 坯	pue1
-胚	pue1
+坯	pue1
 皮	pue2	5000
 末	pue2
 配	pue4
@@ -4889,6 +4906,7 @@ sort: by_weight
 篆	due5
 推	tue1
 揣	tue3
+選	tue3	5000
 退	tue4
 褪	tue4
 蛻	tue4
@@ -5033,6 +5051,7 @@ sort: by_weight
 賴	lua5
 抓	zua1
 查	zua1
+摣	zua2	500
 盞	zua3
 債	zua4	5000
 蔡	cua4	5000
@@ -5115,6 +5134,7 @@ sort: by_weight
 碗	ua3	5000
 豌	ua3
 倚	ua3	5000
+㢊	ua3	5000
 瓦	ua3
 晏	ua4
 話	ua5	5300
@@ -5535,6 +5555,7 @@ sort: by_weight
 弱	zyorh7
 雀	cyorh6	500
 鵲	cyorh6
+𪘧	cyorh6
 削	syorh6
 勺	syorh6
 灼	syorh6
@@ -5682,7 +5703,7 @@ sort: by_weight
 # 順序依照書本目錄順序
 # 天文 teng1 mong2
 天時	ting1 si2  
-天時	teng1 ni2
+天時	ting1 ni2
 天時寒	ting1 ni2 gua2
 天時南風	ting1 ni2 nang2 mue1
 晴	sa2
@@ -5959,11 +5980,13 @@ sort: by_weight
 山塘	sang1 torng2
 窟窿	koh6 lorng5
 地氣	de5 ki4
-大溝	dua5 au1
 #外面環境的積溫
+大溝	dua5 au1
 水土	zui3 lou3
-礁石	dor1 lieu2
 #氣候、水質等自然條件
+礁石	dor1 lieu2
+溝頭	gau1 lau2
+嶺尾	nia3 ue3
 # 地名 de5 mia2
 # 行政劃分
 莆田市	pou2 leng2 ci5
@@ -5975,6 +5998,7 @@ sort: by_weight
 涵江區	hang2 ang1 ky1
 秀嶼區	siu4 ly5 ky1
 仙遊縣	sing1 niu2 ge5
+鎮頭	ding4 nau2
 # 原莆田縣部分 ngoeng2 pou2 leng2 ge5 bou4 hong5
 興化	hing1 ngua4
 興化	hing1 ua4
@@ -6619,6 +6643,34 @@ sort: by_weight
 蜀千億	soh7 ce1 i4
 蜀千億	soh7 ce1 i5
 蜀兆	soh7 dieu5
+一月	ih6 gue5
+二月	di5 ue5
+三月	sor1 ue5
+四月	si4 ue5
+五月	ngou5 ue5
+六月	lah7 gue5
+七月	cih6 gue5
+八月	be5 ue5
+九月	gau3 ue5
+十月	sae2 ue5
+十月	seh7 gue5
+十一月	seh7 ih6 gue5
+十二月	seh7 di5 ue5
+蜀個月	soh7 ge2 gue2
+一個月	soh7 ge2 gue2
+兩個月	nung5 nge2 gue2
+兩個月	nung5 e2 gue2
+三個月	sor1 e2 gue2
+四個月	si4 e2 gue2
+五個月	ngou5 e2 gue2
+六個月	lah7 ge2 gue2
+七個月	cih6 ge2 gue2
+八個月	be5 e2 gue2
+九個月	gau3 e2 gue2
+十個月	sae2 ge2 gue2
+十個月	seh7 ge2 gue2
+十一個月	seh7 ih6 ge2 gue2
+十二個月	seh7 di5 e2 gue2
 蜀湫屎	soh7 ciu5 sai3
 號碼	ho5 or3
 第一	de5 ih6
@@ -6834,6 +6886,7 @@ sort: by_weight
 物節	me leh6 
 甚物	song5 mue5
 什物	soh mue5
+甚物貨	song5 mue5 ho4
 爲甚物	ui5 song5 mue1
 做甚物	zo4 song5 mue1
 做哂	zo4 sae1
@@ -7214,7 +7267,7 @@ sort: by_weight
 罔講罔訂	mo2 orng3 mo2 lia4	100
 紂	diu5
 平平	ba2 ba2
-呆胚	gai2 pue1
+呆坯	gai2 pue1
 過[落尾]	go4 lue3
 留[落尾]	lau2 lue3
 扶[落尾]	pou2 lue3
@@ -7310,6 +7363,7 @@ sort: by_weight
 清鏡鏡	zing1 gia4 gia4
 利	lia5
 利索	lia5 loh6
+脆頭	cee4 lau2
 利劍劍	lai5 gieng4 gieng4
 利口	li5 au3
 聖	sia4 
@@ -7468,6 +7522,7 @@ sort: by_weight
 侯白話	au2 a2 ua5
 侯白騙	au2 a2 peng4
 侯白膦脫	au2 a2 leng5 tuah6
+侯白詐死	au2 a2 dor4 si3
 脫脫	tuah6 tuah6
 弄聘	lang5 ping4
 喫虧	keh6 kui1
@@ -7514,6 +7569,7 @@ sort: by_weight
 膽細	dor3 se4
 膽大	dor3 dua5
 大膽	dai5 dang3
+膽頭	dor3 lau2
 佔鋪	ding4 pou1
 滇拍鼻	ding5 pa5 pi4
 毒見	dorh7 geng4
@@ -7872,6 +7928,7 @@ sort: by_weight
 十十成	seh7 seh7 sia2
 二尼	zi5 ni2
 膦頭	leng5 nau2
+大膦頭	dua5 leng5 nau2
 呆膦	gai2 leng5
 㾏膦	gai2 leng5
 衰膦	sue1 leng5
@@ -8034,6 +8091,8 @@ sort: by_weight
 袂使	be5 lai3
 [勿會]食	be5 lia2
 袂食	be5 lia2
+袂認	be5 ning5
+[勿會]認	be5 ning5
 盡穧	zing5 ne5
 盡少	zing5 zieu3
 尿急	dieu5 gih6
@@ -8089,6 +8148,18 @@ sort: by_weight
 無禮貌	bo2 le3 au5
 把握	ba3 ah6
 乞累	goh6 lui5
+有好無忖	uh6 ho3 bo2 cong4
+靳啊靳	gyng4 nga1 ngyng4
+靳啊靳	gyng4 a1 ngyng4
+頑頭	nguang2 nau2
+勇頭	oeng3 nau2
+數聘	zieu4 ping4
+聘頭	ping4 tau2
+盡數	zing5 zieu4
+悽頭	ce1 lau2
+齊頭	ze2 lau2
+訛話	ue5 ua5
+#曲解
 # 代詞 dai5 lo2
 汝輩	dyh8 mue4
 汝輩	dy3 mue4
@@ -8190,6 +8261,7 @@ sort: by_weight
 中央	dor1 ng1
 半中央	bua4 lor1 ng1
 半路頭	bua4 lou5 lau2
+半路	bua4 lou5 
 半爿	bua4 be2
 許爿	hyng me2
 左爿	zor3 e2
@@ -8230,6 +8302,7 @@ sort: by_weight
 墿墘	dou5 ing2
 路墘	dou5 ing2
 海墘	hai3 ing2
+海頭	hai3 lau2
 海頭墘	hai3 lau2 ing2
 外墘	gua5 ing2
 內墘	li5 ing2
@@ -8323,6 +8396,10 @@ sort: by_weight
 # 動詞 dorng4 no2
 講話	gorng3 ngua5
 講話	gorng3 ua5
+央儂	yorng1 nang2
+輯毛衫	cia5 mor2 lor1
+與	tou5
+與儂	tou5 nang2
 弄笑	lang5 cieu4
 破蚮	pua4 lyor5
 鑿蚮	cah7 dyor5
@@ -8439,7 +8516,7 @@ sort: by_weight
 拸	ti3
 摀	ou3
 摔	sah6
-扎	zor5
+扎	zor5	10
 抴	cyor4
 撟	kieu2
 掩	ing1
@@ -8471,6 +8548,7 @@ sort: by_weight
 食了	sia2 lieu3
 看了	kua4 lieu3
 聽了	tia1 lieu3
+做了	zo4 lieu3
 過去看	gue4 gyh kua4
 分出	bong1 cue5
 趕時間	gua3 si2 ang1
@@ -8502,6 +8580,7 @@ sort: by_weight
 覕	bah7
 沕頭泅	bi5 lau2 siu2
 鍘	zah7
+鍘肉	zah7 noeh7
 毒	tau4
 跷	gieu2
 焯	zor4
@@ -8642,6 +8721,7 @@ sort: by_weight
 講姜尚話	gorng3 gieu1 loeng5 ua5
 拗手骨	or3 ciu3 goh6
 出頭起	coh6 nau2 i3
+出頭	coh6 tau2
 出鬼	coh6 gui3
 會齊	hue5 ze2
 會曉	e5 ieu3
@@ -8711,12 +8791,13 @@ sort: by_weight
 落車	lo2 lia1
 落監獄	lo2 gang1 goeh7
 落種	lo2 loeng3
-默聲	beh6 sia1
+默聲	beh6 zia1
 放鬆	bang4 sang1
 目珠擘睛	mah7 ziu1 ba5 zing1
 目睭擘睛	mah7 ziu1 ba5 zing1
 擘睛	ba5 zing1
 動瞌	dang5 ke5
+𧡍瞌	dang4 ke5
 弄猴	lang5 gau2
 捵拳頭	nieng5 goeng2 nau2
 捵拳頭	nieng5 gong2 nau2
@@ -8938,6 +9019,7 @@ sort: by_weight
 企顛張	kyor4 leng1 niu1
 反輾轉	be3 ing3 nue3
 地動	de5 dang5
+地震  de5 zing3
 放工	bang4 ngang1
 放工	bang4 ang1
 放落	bang4 lo2
@@ -8996,8 +9078,12 @@ sort: by_weight
 嫉妒	zih7 dou4
 合股	gah7 gou3
 齊合	ze2 gah7
+趁頭	teng4 nau2
+#搭夥參與
 廝攬	so1 lang3 
 廝斟	so1 zing1
+斟喙	zing1 cui4
+咮喙	zu2 cui4
 作浪	zo5 lang5
 做蜀合	zoh loh7 kor2
 做一合	zoh loh7 kor2
@@ -9128,6 +9214,7 @@ sort: by_weight
 #把......吃完
 做成	zo4 cia2
 #把......做完
+擔頭	dor4 lau2
 惜福	sieu5 hor5
 惜命	sieu5 mia5
 興遘	hing4 gau4
@@ -9249,6 +9336,7 @@ sort: by_weight
 抴火山	cyor4 hue3 lua1
 抴回頭	cyor4 hue2 lau2
 [扌罪]空	cue4 kang1
+㧪空	cue4 kang1
 做災	zo4 lai1
 拾趁	kah6 teng4
 落落眠	lau4 lo2 ming2
@@ -9328,7 +9416,9 @@ sort: by_weight
 撤[毋挃]	ceh6 ni2
 撤[落尾]	ceh6 lue3
 截肉	se2 noeh7
+㔃肉	se2 noeh7
 截對半	se2 lui4 mua4
+㔃對半	se2 lui4 mua4
 #截對半-對半切
 挨推	e1 tee1
 #推脫/推卸
@@ -9383,7 +9473,11 @@ sort: by_weight
 #不冷的天氣穿得過多
 回過	hue2 gue4
 #恢復過路
+跂骹	gue3 or1
+哄講	horng5 gorng3
+#謠傳
 # 娛樂遊戲 gy2 lorh7 iu2 hi4
+莆仙戲	pou2 leng1 ngi4
 莆仙戲	pou2 leng1 i4
 莆仙戲	pou2 seng1 hi4
 戲棚	hi4 ma2
@@ -9615,6 +9709,7 @@ out side	au5 sai3
 骹球	kor1 iu2
 撚錢	nieng3 zing2
 吊身㧸	dieu4 ling1 borng1
+逐啊逐	doeh7 ga1 doeh7
 # 文化教育 mong2 hua4 gau4 oeh7
 讀書	tah7 zy1
 去讀書	gyh tah7 zy1
@@ -9704,6 +9799,7 @@ out side	au5 sai3
 別字	beh6 zi5
 落句	lo2 gu4
 喝讚	hua5 zang4
+句頭	gu4 lau2
 毋別字	ng5 meh6 zi5
 [毋別]字	meh6 zi5
 三十六送	sor1 leh7 lah7 sang4
@@ -9858,6 +9954,11 @@ out side	au5 sai3
 括弧	guah6 hou2
 #括號
 智識	di4 sih6
+#知識
+默寫	beh6 sia3
+聽寫	tia1 lia3
+背誦	bue5 sorng5
+位頭	ui5 lau2
 # 交通 gau1 torng1
 交通	gau1 torng1
 行路	gia2 lou5
@@ -10387,6 +10488,7 @@ Android	eng1 zorh6
 價錢	gor4 ling2
 特價	deh7 gor4
 錢銜錢	zing2 gor2 zing2
+錢嗛錢	zing2 gor2 zing2
 生理腳	seng1 ni3 gieu5
 鬧熱	dau5 leh7
 大鬧熱	dua5 dau5 leh7
@@ -10793,7 +10895,7 @@ Android	eng1 zorh6
 使賂	sai3 lou5
 刣頭	tai2 lau2
 刣頭	tai2 tau2
-銃命	coeng5 mia5
+銃命	coeng5 ming5
 取和	cy3 or2
 做字	zo4 zi5
 關監	gue1 gang1
@@ -10823,6 +10925,7 @@ Android	eng1 zorh6
 鼎板蓋	dia3 ang3 ngua4
 鼎板蓋	dia3 ang3 ua4
 鼎底	dia3 le3
+大鼎	dua5 lia3
 爬鼎	bor2 lia3
 扒鼎	bor2 lia3
 鼎耳	dia3 i5
@@ -10859,6 +10962,7 @@ Android	eng1 zorh6
 和燒滾	hor2 lieu1 ong3
 沸水	bui4 lui3
 截菜	se2 cai4
+㔃菜	se2 cai4
 揀菜	ge3 cai4
 三牙	sor1 or2
 牙頓	gor2 lee4
@@ -10901,6 +11005,7 @@ Android	eng1 zorh6
 舀糜	ieu3 ma2
 夾物配	ge5 mue2 mue4
 物配	mue2 mue4
+物配頭	mue2 mue4 lau2
 舉箸	gyor2 dy5
 舉調羹	gyor2 dau2 eng1
 舉調羹	gyor2 dieu2 eng1
@@ -11277,6 +11382,7 @@ Android	eng1 zorh6
 穿針	cue1 zieng1
 竹箠	doeh6 cue2
 針尾	zieng1 mue3
+針尾鼻	zieng1 mue3 pi4
 表帕	bieu3 por4
 舂碓	zoeng1 dui4
 雞籠	ge1 lang2
@@ -11825,6 +11931,7 @@ Android	eng1 zorh6
 命冊	mia5 la5
 食教	sia2 gau4
 銜鳥命	gor2 zieu3 mia5
+嗛鳥命	gor2 zieu3 mia5
 看手痕	kua4 ciu3 hong2
 睏夢	kong4 mang4
 掀冊	hieng1 ca1
@@ -11887,7 +11994,7 @@ Android	eng1 zorh6
 城隍廟	sing2 ngorng2 mieu5
 城隍爺	sing2 ngorng2 ngia2
 城隍爺	sing2 ngorng2 ia2
-做疏	zo4 lee1
+做疏	zo4 see1
 畫符	ua5 hu2
 前世債	zeng2 ne4 lua4
 分紅卵	bong1 ang2 nee5
@@ -12138,6 +12245,7 @@ Android	eng1 zorh6
 麥煎	ba2 zeng1 
 秫米煎	soeh7 bi3 zeng1
 起母	ki3 o3
+母頭	bo3 lau2
 熗肉	cah6 noeh7
 汆肉	cah6 noeh7
 熗蚮	cah6 dyor5
@@ -12160,6 +12268,7 @@ Android	eng1 zorh6
 烏菜酸	ou1 lai4 lee1
 仙凍	seng1 nang4
 仙草	seng1 nau3
+蘋婆	bing2 por2
 烏糖	ou1 lung2
 白糖	ba2 lung2
 仙草凍	seng1 nau3 lang4
@@ -13224,7 +13333,9 @@ CT	ci1 ti4
 脰顱筋	dau5 ly1 gyng1
 烏頭汗	ou1 lau2 gua5
 額頭前	hia2 lau2 le2
+額頭	hia2 lau2 
 落額	lorh7 hiah7
+坎頭	kang3 nau2
 塗虱頭	tou2 leh6 tau2
 後枕窠	au3 zing3 ko1
 鬍頦	hou2 e5
@@ -13236,10 +13347,14 @@ CT	ci1 ti4
 目睭仁	mah7 ziu1 ling2
 目珠核	mah7 ziu1 hoh7
 目睭核	mah7 ziu1 hoh7
+目珠尾	mah7 ziu1 ue3
+目睭尾	mah7 ziu1 ue3
 目尾	mah7 bue3
 目鼓	mah7 gou3
 目眉	mah7 bai2
 目眉毛	mah7 bai2 mung2
+目頭	mah7 tau2
+目頭蹙	mah7 tau2 cor5
 目泡	mah7 por5
 目皮	mah7 pue2
 目蜞	mah7 ki2
@@ -13253,6 +13368,7 @@ CT	ci1 ti4
 白仁	ba2 ling2
 烏仁	ou1 ling2
 近視目	gyng5 ni5 mah7
+近視	gyng5 ni5 
 鳥覸目	zieu3 e4 mah7
 目珠花	mah7 ziu1 hua1
 目睭花	mah7 ziu1 hua1
@@ -13419,6 +13535,7 @@ CT	ci1 ti4
 手目	ciu3 mah7
 腹臍	bah6 zai2
 腹肚	bah6 dou3
+腹肚尾	bah6 dou3 ue3
 腹肚枵	bah6 dou3 ieu1
 腹肚飢	bah6 dou3 gui1
 無枵	bo2 ieu1
@@ -13568,7 +13685,9 @@ CT	ci1 ti4
 發育	huah6 oeh7
 胃腸	ui5 lyorng2
 皮肉	pue2 noeh7
-#親情 cing1 nia2 親屬
+鹹雞頭	gieng2 nge1 lau2
+#親情 cing1 nia2 親屬 稱呼 cing1 nou1
+稱呼	cing1 nou1
 公媽	gorng1 ma3
 公嬷	gorng1 ma3
 頂輩	deng3 mue4
@@ -13658,6 +13777,7 @@ CT	ci1 ti4
 阿弟	a1 li5
 阿嫂	a1 lo3
 兄嫂	hia1 so3
+阿嫂頭	a1 lo3 lau2
 阿姊	ah6 zi3
 阿妹	ah6 mue4
 阿妹	ah6 mai4
@@ -13686,6 +13806,7 @@ CT	ci1 ti4
 依妹	ih6 mue4
 依嫂	ih6 so3
 姊妹囝	zi3 mue4 yor3
+姊妹囝	zing3 mue4 yor3
 兄弟仔	hia1 li5 ia3
 表兄弟	bieu3 ing1 ne5
 表兄弟	bieu3 hia1 le5
@@ -13758,8 +13879,9 @@ CT	ci1 ti4
 寡居儂	gua3 i1 nang2
 過房	go4 ang2
 開科	kui1 or1
-男女囝	nang2 ni3 gyor3
-抱兮	po5 eh6\
+男女囝	nang2 ny3 gyor3
+男女囝	nang2 ny3 yor3
+抱兮	po5 eh6
 抱的	po5 eh6
 乞兮	koh6 geh6
 乞的	koh6 geh6
@@ -13794,6 +13916,7 @@ CT	ci1 ti4
 做蜀行	zoh6 loh7 ng2
 做一行	zoh6 loh7 ng2
 下輩	or5 ue4
+蜀科頭	soh7 kor1 lau2
 結義兮老父	geh6 gi5 eh6 lor5 or5
 結義兮嬢嬭	geh6 gi5 eh6 nieu2 le3
 結義兮囝	geh6 gi5 eh6 gyor3
@@ -13816,7 +13939,7 @@ CT	ci1 ti4
 仍孫	zing2 song1
 雲孫	ong2 song1
 耳孫	zi3 song1
-# 職業 zih6 gieh7 稱謂
+# 職業 zih6 gieh7 稱謂 
 名頭	mia2 lau2
 #name
 外地儂	gue5 de5 nang2
@@ -14223,6 +14346,9 @@ CT	ci1 ti4
 四川囝	so4 loeng1 ngyor3
 四川囝	so4 loeng1 yor3
 四川婆	so4 loeng1 mo2
+福州囝	horh6 ziu1 yor3
+泉州囝	soeng2 niu1 yor3
+廣東囝	gung3 norng1 ngyor3
 阿樂	ah6 lo2
 長樂囝	dieu2 lo2 yor3
 #指長樂買回來的養女
@@ -14232,6 +14358,8 @@ CT	ci1 ti4
 消防員	sieu1 horng2 oeng2
 公安	gorng1 ngang1
 公安	gorng1 ang1
+公安局	gorng1 ngang1 goeh4
+派出所	pai4 ceh6 see3
 警察	ging4 cah6
 武警	bu3 ging4
 解放軍	gai3 horng4 ngong1
@@ -14252,6 +14380,16 @@ CT	ci1 ti4
 烏鬼	ou1 gui3
 臺灣囝	dai2 uang2 ngyor3
 臺灣囝	dai2 uang2 yor3
+員工	oeng2 ngorng1
+人員	zing2 ngoeng2
+人員	zing2 oeng2
+阿狗	ah6 gau3
+阿豬	ah6 dy1
+阿珠	ah6 zou1
+阿花	ah6 hua1
+阿虛	ah6 hy1
+看命生	kua4 mia5 leng1
+八股生	bah6 gou3 leng1
 # 物乇 mue2 nor5 器具用品
 樹尼圈	ciu4 ni1 koeng1
 頭扣	tau2 kieu4
@@ -14509,7 +14647,7 @@ CT	ci1 ti4
 可樂瓶	kor3 lorh7 beng2
 紅薰	ang2 hong1
 水薰	zui3 ong1
-#厝 cou4 房屋
+# 厝 cou4 房屋
 起厝	ki3 lou4
 厝宅	cou4 la3
 僻舍	pih6 sia4
@@ -14789,6 +14927,8 @@ CT	ci1 ti4
 小區	sieu3 ky1
 別墅	beh7 sy3
 # 動物 dorng5 moh7
+動物	dorng5 moh7
+凰鳳	horng2 ngorng5
 老鷂	lor3 ieu5
 爪囝	zieu3 yor3
 鴛鴦	eng1 nieu1
@@ -14864,6 +15004,7 @@ CT	ci1 ti4
 貓狸公	mor1 li3 gang1
 貓狸母	mor1 li3 o3
 廬鼠	lou2 ly3
+老鼠	lou3 ly3
 青盲鼱鼠	ca1 ma1 zing1 ny3
 本地雞	bue5 le5 ge1
 雞公	ge1 gorng1
@@ -15033,6 +15174,10 @@ CT	ci1 ti4
 馬鞍	bor3 ua1
 金魚	ging1 ngy2
 金魚	ging1 y2
+塍螺	ceng2 lee2
+田螺	ceng2 lee2
+塍螺尾	ceng2 lee2 ue3
+田螺尾	ceng2 lee2 ue3
 # 植物 sih7 boh7
 樹林	ciu4 nor2
 楓樹	bue1 liu4
@@ -15210,6 +15355,7 @@ CT	ci1 ti4
 五穀	gou3 orh6
 水蓮花	zui3 nee2 ua1
 #水蓮花-水葫蘆
+蒂頭	di4 lau2
 # 農事 norng2 so5
 年冬	ning2 nang1
 抽水	tiu1 lui3
@@ -15311,6 +15457,7 @@ CT	ci1 ti4
 糞池兜	bong4 ni2 lau1
 糞池溝	bong4 ngi2 au1
 糞池溝	bong4 i2 au1
+廁所	ceh6 see3
 尿㼿	dieu5 noeng2
 尿㼸	dieu5 loeng2
 池攪	di2 gor3
@@ -15337,6 +15484,7 @@ CT	ci1 ti4
 風鼓	horng1 ngou3
 風鼓	horng1 ou3
 鼓風機	gou3 horng1 gi1
+出出	coh6 cue5
 企把	kyor4 or3
 擔索	dor1 lo5
 井索	za3 lo5
@@ -15529,6 +15677,8 @@ CT	ci1 ti4
 蜀坵	soh7 ku1
 一坵	soh7 ku1
 #一塊田
+糧頭	nieu2 lau2
+塗車	tou2 cia1
 # 時令時間 si2 ling5 si2 ang1
 從古	zoeng2 gou3
 萬古	mang5 gou3
@@ -15571,6 +15721,7 @@ CT	ci1 ti4
 初一早	cee1 ih6 zor3
 頂半年	deng3 mua4 ning2
 下半年	or5 ua4 ning2
+半年	bua4 ning2
 逐年	dah7 ning2
 蜀年	soh7 ning2 
 一年	soh7 ning2 
@@ -15579,6 +15730,15 @@ CT	ci1 ti4
 大幾年	dua5 gui3 ning2
 兩年外	nung2 ning2 gua5
 兩年	nung2 ning2 
+三年	sor1 ning2
+四年	si4 ning2
+五年	ngou5 ning2
+六年	lah7 ning2
+七年	cih6 ning2
+八年	be5 ning2
+九年	gau3 ning2
+十年	sae2 ning2
+十月	seh7 ning2
 月大	gue2 lua5
 月細	gue2 le4
 過月	go4 ue2
@@ -15718,6 +15878,7 @@ CT	ci1 ti4
 天光	ting1 gung1
 天殕殕光	ting1 pu3 pu3 ung1
 起頭	ki3 lau2
+初頭	cee1 lau2
 頭年	tau2 ning2
 頭先	tau2 le1
 先先	seng1 ne1
@@ -15786,6 +15947,9 @@ CT	ci1 ti4
 一半工	soh7 bua4 ang1
 大幾工	dua5 gui3 ang1
 幾工	gui3 ang1
+逐工	dah7 gang1
+逐日	dah7 dih7
+日日	dih7 dih7
 蜀字	soh7 zi5
 一字	soh7 zi5
 閏月	nong5 ngue2
@@ -16230,7 +16394,7 @@ CT	ci1 ti4
 暝漲日大	ma2 lung3 dih7 dua5
 拉紅瀉白	lor2 ang2 sia4 ba2
 三娘教子	sang1 niang2 gau4 zo3
-喙歪目𪘧	cui4 ue1 mah7 ni5
+喙歪目𥍉	cui4 ue1 mah7 ni5
 有暝無日	uh6 ma2 bo2 dih7
 拖暝過晝	tua1 ma2 go4 dau4
 拖牙失頓	tua1 or2 sih6 dee4
@@ -16249,7 +16413,7 @@ CT	ci1 ti4
 烏頭烏面	ou1 lau2 ou1 ming4
 衣裳襤褸	i1 lieu2 lang2 ly2
 熱狂熱豬	zeh7 gorng2 zeh7 dy1
-三攪成羣	sor1 gor3 sing2 gong2
+三攪成群	sor1 gor3 sing2 gong2
 趁風趁雨	teng4 bue1 teng4 hou5
 花籃廝摜	hua1 nor2 so2 gua5
 頂做下學	deng3 zo4 or5 o2
@@ -16373,8 +16537,49 @@ CT	ci1 ti4
 歪儂道理正	ue1 nang2 dor5 li3 zia4
 草動都是蛇	cau3 dang5 do1 lih6 syor2
 怨生不怨死	oeng5 sa1 boh6 oeng5 si3
-#P374
-
+錢空儂平安	zing2 kang1 nang2 bing2 nang1
+惡儂居小姓	orh6 nang2 gy1 sieu3 sa4
+酒癡鴉片講	ziu3 ti1 a1 eng4 gorng3
+鐵拍兮心肝	ti5 pa5 eh6 sing1 ngua1
+做鬼搦囝孫	zo4 gui3 dia2 gyor3 long1
+走賊走賊弄	zau3 ceh7 zau3 ceh7 lang5
+雷響天下知	lui2 hieu3 teng1 nga5 ti1
+騙鬼食豆渣	peng4 gui3 sia2 dau5 lor1
+鼓無拍[勿會]響	gou3 bo2 pa5 be5 hieu3
+腹肚裏有鬼	bah6 dou3 li3 u5 gui3
+包樹不包垞	bau1 ciu4 boh6 bau1 ta2
+老儂變低仔	lau5 nang2 beng4 dai1 ia3
+閒錢補破笠	e2 zing2 bou3 pua4 lieh7
+背後罵皇帝	bue5 au5 mor4 horng2 ne5
+寒皮無寒骨	gua2 pue2 bo2 gua2 goh6
+賊走關後門	ceh7 zau3 gue1 au5 mue2
+寺衰無和尚	si5 sue1 bo2 hor2 lyorng5
+日日三十暝	dih7 dih7 sor1 leh7 ma2
+日日三十暝	dih7 dih7 sor1 eh7 ma2
+呆鐵拍呆釘	gai2 ti5 pa5 gai2 deng1
+十二月生兮	seh7 di5 ue2 sa1 eh7
+七寸十六目	cih6 cong4 seh7 lah7 mah7
+子曰毋使讀	zo3 oeh7 ng5 nai3 tah7
+章魚含泡扼	zieu1 y2 hah7 por5 eh6
+賊心忌他人	ceh7 sing1 gi4 ta1 ling2
+冇如二十九	por4 zy2 di5 eh7 gau3
+冇如二十九	por4 zy2 di5 leh7 gau3
+有供做無祿	u5 gorng1 zo4 bo2 lui3
+椅仔踢骹臁	i3 ia3 teh6 kor1 lieng2
+蜀石差九斗	soh7 sieu2 ca1 gau3 lau3
+小姐配田客	sieu3 lia3 pue4 ceng2 ka5
+戲棚兜績縩	hi2 ma2 lau1 za4 le4
+無興不成市	bu2 hing2 boh6 sing2 ci5
+無索撩蘋婆	bo2 so5 lieu2 bing2 por2
+王允獻貂蟬	orng2 yng3 hoeng4 dieu1 seng2
+伺伺偷摘桃	so2 so2 tau1 nieng4 to2
+廝拚扻胛脊	so1 bia4 kang4 ngor lia5
+水鬼拖索鬼	zui3 gui3 tua1 so5 gui3
+發財如水漲	huah6 zai2 zy3 zui3 dung3
+會呆大王爺	eh6 gai2 dai5 orng2 ngia2
+豆核粒落胛脊	dau5 hoh7 lau4 gor lia5
+明儂包生囝	ming2 nang2 bau1 sa1 gyor3
+做牛[勿會]偷使	zo4 gu2 be5 tau1 lai3
 有頭有尾	uh6 tau2 uh6 bue3
 飼囝顧老	ci4 gyor3 gou4 lau5
 食囝孫歲	sia2 gyor3 song1 hue4
@@ -16390,7 +16595,40 @@ CT	ci1 ti4
 鴨目聽雷公	or5 o3 tia1 lui2 orng1
 有前手無後手	uh6 se2 liu3 bo2 au5 liu3
 豬八戒好鬧熱	dy1 eh6 gau4 hor4 dau5 leh7
-#不常用告一段落
+蜀世目	soh7 se4 mah7
+蜀雙箸	soh7 sang1 dy5
+蜀喙食	soh7 cui4 sia2
+無力錢	bo2 lih7 zing2
+狗逐屁	gau3 doeh7 pui4
+狗綴屁	gau3 due4 pui4
+食三骹	sia2 sor1 kor1
+手門鬆	ciu3 mue2 lang1
+搭大船	dor5 dua5 long2
+腹肚圓	bah6 dou3 ing2
+尺工六	cieu5 orng1 lah7
+合四上	hah7 si4 sieu5
+目珠白	mah7 ziu1 ba2
+絕呆膦	zoeh7 gai2 leng5
+石骹桶	sieu2 or1 lang3
+十骹全	sae2 kor1 zee2
+拉狗膦	lor2 gau3 leng5
+有身裏	uh6 sing1 li3
+[勿會]起鋪	be5 ki3 ou1
+走糞池兜	zau3 bong4 ni2 lau1
+乞儂睏落	goh6 nang2 kong4 lo2
+做卜敗事	zo4 boh6 bai4 lo5
+梅生六箬	bue2 sa1 lah7 nieu2
+大鼎炒秤錘	dua5 lia3 cor3 cing4 nui2
+鴨卜管鵝	or5 boh6 guang3 gyor2
+廬鼠卜管大蛇	lou2 ly3 boh6 guang3 dua5 lyor2
+傷精熬無油	sieu1 zing1 go2 bo2 iu2
+魚炒蝦	hy2 cor3 hor2
+蜀甓青炊都是頭	soh7 peh6 cing1 cue1 do1 lih6 tau2
+食屎配塗虱	sia2 sai3 pue4 tou2 leh6
+蜀寺師姑都病囝	soh7 si5 sai1 ou1 do1 ba5 yor3
+白米飼瘸骹雞	ba2 i3 ci4 kou2 or1 ge1
+含狗十一丁	hang2 gau3 seh7 ih6 deng1
+
 # 偏旁 peng1 morng2
 字爿	zi5 be2
 亻	kyor5 nang2 me2
@@ -16402,6 +16640,7 @@ CT	ci1 ti4
 雙騎儂	sang1 ngyor2 nang2
 雙騎儂	sang1 yor2 nang2
 辶	zau3 or3 ui2
+
 走馬圍	zau3 or3 ui2
 冖	pah6 tau2
 覆頭	pah6 tau2
@@ -16481,6 +16720,7 @@ kapok	gor1 ua2
 清明前冬節後	ca1 mia2 se2 dang1 ne5 au5
 本地牛食本地草	bue3 le5 u2 sia2 bue3 le5 lau3
 牛閒四月八儂閒五日節	gu2 e2 si4 ue5 be5 nang2 e2 ngou5 lih7 ze5
+阿姑惜孫同姑姓	ah6 gou1 sieu5 song1 dang2 gou1 sa4
 
 
 # 字母方言讀音 zo5 ieu3 horng1 ngoeng2 tah7 ing1
@@ -16619,6 +16859,263 @@ Z	zei4
 鄂州	gorh7 ziu1
 恩平	yng1 bing2
 恩施	yng1 si1
+防城港	horng2 nia2 gang3
+防城港	horng2 sing2 gang3
+汾陽	hong1 ngyorng2
+豐城	horng2 nia2
+鳯城	horng5 nia2
+豐都	horng1 dou1
+奉化	horng5 ngua4
+封開	horng1 kai1
+豐順	horng1 song5
+鳳陽	horng5 ngyrong2
+佛山	hoh7 sang1
+福鼎	horh6 ding3
+福海	horh6 hai3
+福建	horh6 goeng4
+撫順	hu3 song5
+撫州	hu3 liu1
+福州	horh6 ziu1
+噶尔	ga er	1
+甘肅	gang1 soeh6
+贛州	gorng4 niu1
+高淳	gor1 song2
+高雄	gor1 hoeng2
+打狗	da3 gau3
+高郵	gor1 iu2
+高州	gor1 liu1
+公安	gorng1 ang1
+公主嶺	gorng1 ny3 nia3
+古蔺	gou3 ling5
+固始	gou4 si3
+古田	gou3 leng2
+廣安	gorng3 ngang1
+廣東	gung3 norng1
+廣西	gung3 ne1
+廣元	gorng3 ngoeng2
+光澤	gorng1 zeh6
+廣州	gung3 niu1
+广宗	guang zong
+貴港	gui4 gang3
+桂林	ge4 ling2
+貴南	gui4 nang2
+桂平	ge4 bing2
+貴溪	gui4 ke1
+桂陽	ge4 yorng2
+貴陽	gui4 yorng2
+貴州	gui4 liu1
+哈爾濱	hah6 zi3 ing1
+哈密	hah6 bih7
+海安	hai3 ang1
+海滄	hai3 cyorng1
+海城	hai3 lia2
+海淀	hai3 deng5
+海豐	hai3 hong1
+海口	hai3 kau3
+海南	hai3 nang2
+海寧	hai3 neng2
+海陽	hai3 yorng2
+邯鄲	hang2 dang1
+漢沽	hang4 gou1
+漢口	hang4 ngau3
+漢南	hang4 nang2
+漢陽	hang4 ngyorng2
+漢陰	hang4 ing1
+漢中	hang4 doeng1
+杭州	hang2 niu1
+河北	hor2 bah6
+合肥	hah6 hi2
+合肥	hah6 bui2
+河南	hor2 nang2
+和平	hor2 bing2
+合浦	hah7 pou3
+鹤山	horh8 sang1
+河源	hor2 ngoeng2
+菏澤	hor2 zeh6
+黑河	heh6 hor2
+黑龙江	heh6 loeng2 ngang1
+黑龙江	ou1 loeng2 ngang1
+衡水	heng2 sui3
+红河	horng2 hor2
+洪湖	horng hou2
+湖北	hou2 bah6
+呼和浩特	hou1 hor1 hor5 deh8
+葫蘆島	hou2 lou2 dor3
+呼倫貝爾	hou1 long2 bue4 zi3
+湖南	hou2 nang2
+湖州	hou2 liu1
+花都	hua1 dou1
+花莲	hua1 leng2
+華山	hua5 sang1
+化州	hua4 liu1
+淮安	hue2 ang1
+淮北	hue2 bah6
+懷化	hue2 hua4
+懷集	hue2 zih7
+淮南	hue2 nang2
+懷柔	hue2 ziu2
+淮陽	hue2 yorng2
+淮陰	hue2 ing1
+黃岡	horng2 ngang1
+黄山	horng2 nang1
+黄石	horng2 sih7
+黄岩	horng2 ngang2
+惠安	he5 ua1
+惠東	he5 dorng1
+惠來	he5 lai2
+徽縣	hui1 ge5
+惠陽	he5 yorng2
+徽州	hui1 liu1
+惠州	he5 liu1
+琿春	hong2 cong1
+集安	zih7 ang1
+吉安	gih6 ang1
+吉林	gih6 ling2
+基隆	ge1 lorng2
+基隆	ge1 lang2
+集美	zih7 bi3
+即墨	zih6 beh7
+濟南	ze4 nang2
+濟寧	ze4 neng2
+雞西	ge1 se1
+集賢	zih7 heng2
+冀州	gi4 liu1
+嘉定	ga1 deng5
+嘉禾	ga1 hor2
+佳木斯	ga1 borh7 so1
+嘉善	ga1 seng5
+嘉兴	ga1 hing5
+嘉義	ga1 gi5
+嘉峪關	ga1 oeh7 guang1
+劍川	gieng4 coeng1
+建德	goeng4 deh7
+劍閣	goeng4 gorh6
+建湖	goeng4 hou2
+建寧	goeng4 neng2
+建甌	goeng4 au1
+建陽	goeng4 ngyorng2
+簡陽	gang3 ngyorng2
+江都	gang1 dou1
+將樂	zyorng1 lorh7
+江陵	gang1 ling2
+江門	gang1 mong2
+江寧	gang1 neng2
+江山	gang1 sang1
+江西	gang1 ne1
+江蘇	gang1 sou1
+江夏	gang1 ha5
+江陰	gang1 ing1
+胶州	gau1 liu1
+焦作	zieu1 zorh6
+揭東	geh6 dorng1
+揭西	geh6 se1
+揭陽	geh6 yorng1
+晉城	zing4 nia2
+金華	ging1 hua2
+晉江	zing4 ngang1
+金門	ging1 mong2
+金沙	ging1 sa1
+金山	ging1 sang1
+錦州	ging3 niu1
+景德镇	ging3 deh7 ding4
+井岡山	zing3 gorng1 sang1
+荊門	ging1 mong2
+荆州	ging1 niu1
+九江	giu3 ang1
+九龍	giu3 loeng2
+酒泉	ziu3 soeng2
+九寨溝	giu3 zai4 gau1
+開封	kai1 horng1 
+開化	kai1 hua4
+康定	korng1 deng5
+崑山	kong1 sang1
+拉薩	la1 sah6
+萊蕪	lai2 bu2
+蘭考	lanh2 kor3
+藍田	lang2 deng1
+蘭溪	lang2 nge1
+蘭州	lang1 niu1
+廊坊	lorng2 horng1
+樂昌	lorh7 cyorng1
+樂東	lorh7 dorng1
+樂都	lorh7 dou1
+樂山	lorh7 sang1
+樂業	lorh7 gieh7
+雷州	lui2 liu1
+黎川	le2 coeng1
+麗江	le5 gang1
+荔浦	li5 pou3
+禮泉	le3 soeng2
+麗水	le5 sui3
+蠡縣	li3 ge5
+溧陽	lih7 yorng2
+連城	leng2 nia1
+蓮花	leng2 hua1
+廉江	lieng1 ngang1
+連江	leng2 ngang1
+連雲港	leng2 ong2 gang3
+聊城	lieu2 lia2
+遼寧	lieu2 neng2
+遼陽	lieu2 yorng2
+临高	ling2 gor1
+临漳	ling2 zyorng1
+陵水	ling2 sui3
+瀏陽	liu2 yorng2
+柳州	liu3 liu1
+龍川	loeng2 coeng1
+龍海	loeng2 hai3
+龍江	loeng2 ngang1
+龍門	loeng2 mong2
+龍巖	loeng2 ngang2
+婁底	lieu2 de3
+六安	loeh7 ang1
+陸豐	loeh7 horng1
+廬江	lou2 ang1
+廬山	lou2 sang1
+瀘州	lou2 liu1
+灤平	luang2 bing2
+羅定	lor2 deng5
+洛陽	lorh7 yorng2
+羅源	lor2 ngoeng2
+旅順	ly3 song5
+馬鞍山	ma3 ang1 sang1
+馬尾	ma3 ue3
+馬祖	ma3 zou3
+滿洲里	muang3 ziu1 li3
+茂名	bieu5 ming2
+梅縣	bue2 ge4=5
+梅州	bue2 liu1
+弥勒	mi2 leh7
+汨羅	bih7 lor2
+綿陽	ming2 ngyrong2
+苗栗	bieu2 lih7
+閔行	ming3 hang2
+閩侯	mang2 gau2
+閩清	mang2 cia1
+明溪	ming2 ke1
+漠河	borh7 hor2
+墨脫	borh7 tuah6
+墨玉	borh7 goeh7
+牡丹江	bou3 dang1 ngang1
+木蘭	borh7 lang2
+南安	nang2 ngang1
+南澳	nang2 or4
+南昌市	nang2 cyorng1
+南充	nang2 coeng1
+南川	nang2 coeng1
+南豐	nang2 horng1
+南海	nang2 hai3
+南京	nang2 nging1
+南靖	nang2 zing4
+南寧	nang2 neng2
+南平	nang2 bing2
+南沙島	nang2 sa1 dor3
+南通	nang2 torng1
+南投	nang2 dau2
+南雄	nang2 hoeng2
+南陽	nang3=2 ngyorng2
+
+# 福建地名
 上逕	syorng4 ngia4
 長樂	dieu2 lo2
 蒜嶺	see4 nia3
@@ -16696,9 +17193,13 @@ gameboy	geng1 bor1
 排氣扇	bai2 ki4 ling4
 電吹	deng5 cue1
 
-#以下待施工
+# 以下待施工
 # 國學
 詩經	si1 ging1
+
+# 朝代
+朝代	dieu2 lai5
+
 
 # 歷史人物
 林默	ne2 beh6
@@ -16765,6 +17266,8 @@ gameboy	geng1 bor1
 音韻	ing1 ong5
 口音	kieu3 ing1
 口音重	kieu3 ing1 dang5
+音調	ing1 dieu5
+聲調	sia1 dieu5
 
 # ACG
 龍珠	loeng2 zou1
@@ -16857,6 +17360,43 @@ gameboy	geng1 bor1
 破碗	pua4 ua3
 弄招牌	lorng5 zieu1 e2
 #丟臉
+密碼箱	bih7 bor3 lieu1
+正禮	zing4 le3
+好運  ho3 ong5
+呆運  gai2 ong5
+行好運  gia2 ho3 ong5
+拚頭名  bia4 tau2 mia2
+底主  de3 lou3
+竅頭	kieu4 lau2
+儼頭	ngieng3 nau2
+秋風頭	ciu1 orng1 nau2
+衫頭衫尾	sang1 nau2 sang1 mue3
+塗儂囝	tou2 nang2 ngyor3
+儂鼓	nang2 gou3
+豬鼓	dy1 gou3
+茄鼓	gieu2 gou3
+童生鼓	dorng2 neng1 gou3
+別字鼓	beh6 zi5 gou3
+壯丁鼓	zorng4 neng1 gou3
+樹頭鼓	ciu4 lau2 gou3
+松樹鼓	soeng2 niu4 gou3
+
+# 詈語
+乞天罡摜	goh6 teng1 ngorng1 gua5
+天罡乞摜	teng1 ngorng1 goh6 gua5
+乞雷公敲	goh6 lui2 orng1 kor4
+乞大王爺搦	goh6 dai5 orng2 ngia2 dia2
+乞銃拍	goh6 coeng5 pa5
+乞鬼搦	goh6 gui3 dia2
+絕戶坯	zee5 ou5 pue1
+死半路	si3 ua4 lou5
+貨𨈘	ho4 lau3
+貨𨈘囝	ho4 lau3 yor3
+乞食坯	koh6 sia2 pue1
+搦奸臣	dia2 gang1 sing2
+戇頭豬	ngorng5 nau2 dy1
+土豬	tou3 ly1
+半路死	bua4 lou5 li3
 
 
 # 普通話文詞
@@ -17086,6 +17626,10 @@ gameboy	geng1 bor1
 規定	gi1 deng5
 規定	gui1 deng5
 政府	zing4 ngu3
+政務	zing4 mu5
+政務	zing4 bu5
+任務	zing5 bu5
+任務	zing5 mu5
 截圖	zeh7 dou2
 除了	dy2 lieu3
 服務	horh7 bu5
@@ -17144,8 +17688,8 @@ gameboy	geng1 bor1
 特產	deh7 sang3
 特長	deh7 dyorng2
 特點	deh7 lieng3
-加羣	ga1 gong2
-羣主	gong2 zy3
+加群	ga1 gong2
+群主	gong2 zy3
 正式	zing4 sih6
 正確	zing4 kah6
 錯誤	corh6 gou5
@@ -17233,8 +17777,8 @@ gameboy	geng1 bor1
 簡單	gang3 dang1
 自殺	zo4 sah6
 招牌	zieu1 e2
-羣衆	gong2 noeng4
-羣衆	gong2 zoeng4
+群衆	gong2 noeng4
+群衆	gong2 zoeng4
 百姓	beh6 sing4
 積極	zih6 gih6
 研究	ngieng2 kiu4
@@ -17242,3 +17786,65 @@ gameboy	geng1 bor1
 更新	geng1 sing1
 格式	geh6 sih6
 谋生	bieu2 leng1
+可以	kor3 i3
+真正	zing1 zing4
+斟酌	zing1 zyorh6
+目標	borh7 bieu1
+目的	borh7 deh6
+習慣	sih7 guang4
+位置	ui5 li4
+方位	horng1 ui5
+愛心	ai4 sing1
+愛心	ai4 ling1
+保護	bor3 ou5
+保護	bor3 hou5
+公開	gorng1 kai1
+公佈	gorng1 bou4
+公平	gorng1 bing2
+散步	sang4 bou5
+進度	zing4 dou5
+進步	zing4 bou5
+痛苦	torng4 kou3
+小吃	sieu3 cih7
+出口	coh6 kau3
+入口	dih7 kau3
+收入	siu1 dih7
+支出	tsi1 coh6
+對應	dui4 ing4
+反映	huang3 ing4
+反應	huang3 ing4
+反對	huang3 dui4
+反正	huang3 zing4
+應對	ing4 dui4
+政策	zing4 ceh6
+國策	gorh6 ceh6
+策劃	ceh6 heh7
+規劃	gi1 heh7
+規劃	gui1 heh7
+規定	gi1 deng5
+規定	gui1 deng5
+正規	zing4 gi1
+正規	zing4 gui1
+討厭	tor3 ieng4
+喜歡	hi3 huang1
+歡喜	huang1 hi3
+喜事	hi3 so5
+好意	ho3 i4
+過分	go4 hong5
+水平	zui3 bing2
+平均	bing2 gyng1
+平攤	bing2 tang1
+公平	gorng1 bing2
+命運	mia5 ong5
+運氣	ong5 ki4
+地主	de5 zy3
+允許	yng3 hy3
+獻血	hoeng4 he5
+捐獻	goeng1 hoeng4
+捐款	goeng1 kuang3
+文獻	mong2 hoeng4  
+參與	cang1 y3
+封頂	horng1 deng3
+認真	ning5 zing1
+認爲	ning5 ui2
+認爲	ning5 ngui2
