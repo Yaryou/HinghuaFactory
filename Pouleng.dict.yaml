@@ -21,7 +21,7 @@
 
 ---
 name: Pouleng
-version: "2019.5.27.1"
+version: "2019.5.31.1"
 use_preset_vocabulary: false
 sort: by_weight
 ...
@@ -12380,10 +12380,15 @@ Android	eng1 zorh6
 李鹹	li3 ieng2
 李鹹乾	li3 ieng2 gua1
 雞骹	ge1 kor1
+雞頭	ge1 tau2
 雞腹內	ge1 bah6 di3
 雞腱	ge1 ging5
 雞翼	ge1 sih7
 鴨腱	or5 ging5
+鴨翼	or5 sih7
+鴨頭	or5 tau2
+雞脰顱	ge1 dau5 ly1
+鴨骹	or5 kor1
 黃膏	ang2 go1
 雞卵膏	ge1 nee5 go1
 雞卵殼	ge1 nee5 kah6
@@ -15356,6 +15361,8 @@ CT	ci1 ti4
 水蓮花	zui3 nee2 ua1
 #水蓮花-水葫蘆
 蒂頭	di4 lau2
+樹骹	ciu4 kor1
+樹下	ciu4 or5
 # 農事 norng2 so5
 年冬	ning2 nang1
 抽水	tiu1 lui3
@@ -16786,7 +16793,7 @@ Z	zei4
 
 # 全國地名 不全收 待施工 按照首字漢語拼音-英文字母順序排序
 安徽	ang1 hui1
-安庆	ang1 king4
+安慶	ang1 king4
 安溪	ang ke1
 澳門	or4 mue2
 八达嶺	bah6 dah6 ling3
@@ -16895,7 +16902,6 @@ Z	zei4
 廣元	gorng3 ngoeng2
 光澤	gorng1 zeh6
 廣州	gung3 niu1
-广宗	guang zong
 貴港	gui4 gang3
 桂林	ge4 ling2
 貴南	gui4 nang2
@@ -17848,3 +17854,7 @@ gameboy	geng1 bor1
 認真	ning5 zing1
 認爲	ning5 ui2
 認爲	ning5 ngui2
+體檢	te3 gieng3
+檢察院	gieng2 cah6 ing5
+體驗	te3 ngieng5
+檢驗	gieng3 ngieng5
