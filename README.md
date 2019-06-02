@@ -26,7 +26,7 @@ Rime使用[具体教程](https://laubonghaudoi.github.io/dialects/)
 | g |  k  | 寒 gua  京 ging |
 | k |  kʰ  | 看 kua 级 kih |
 | ng |  ŋ  | 五 ngou 迎 nging |
-| 零声母 |  不标/ʔ  |  碗 ua 园 oeng |
+| 零声母 |  ʔ/不标  |  碗 ua 园 oeng |
 
 ### 韵母
 
@@ -52,6 +52,22 @@ Rime使用[具体教程](https://laubonghaudoi.github.io/dialects/)
 | ue | ue  | 火 hue 软 nue |
 | ui | ui  | 水 zui 雷 lui |
 | yor | yɒ  | 纸 zyor 蚮 dyor |
+
+#### 阳声韵
+| 拼音 | 国际音标 | 例字 |     
+| :------: | :--------: | :----------: | 
+| ang | aŋ  | 东 dang 红 ang |
+| orng | ɒŋ  | 工 gorng 丰 porng |
+| eng | ɛŋ  |  边 beng 信 seng |
+| oeng | œŋ  |  中 doeng 勇 oeng |
+| ong | ɔŋ  |  分 bong 军 gong |
+| ing | iŋ  |  冰 bing 天 ting |
+| ieng | iɛŋ  |  咸 gieng 掀 hieng |
+| ung | uŋ  |  糖 tung 两 nung |
+| uang | uaŋ  |  蒜 suang 湾 uang |
+| yng | yŋ  |  斤 gyng 恩 yng |
+| yorng | yɒŋ  |  乡 hyorng 央 yorng |
+| 声化韵ng | ŋ̍  |  黄 ng 方 hng |
 
 #### 入声韵
 | 拼音 | 国际音标 | 例字 |     
