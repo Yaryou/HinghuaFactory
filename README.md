@@ -30,7 +30,7 @@ Rime使用[具体教程](https://laubonghaudoi.github.io/dialects/)
 
 ### 韵母
 
-阴声韵
+#### 阴声韵
 | 拼音 | 国际音标 | 例字 |     
 | :------: | :--------: | :----------: | 
 | a |  a  | 生 sa 家 ga |
@@ -53,7 +53,7 @@ Rime使用[具体教程](https://laubonghaudoi.github.io/dialects/)
 | ui | ui  | 水 zui 雷 lui |
 | yor | yɒ  | 纸 zyor 蚮 dyor |
 
-入声韵
+#### 入声韵
 | 拼音 | 国际音标 | 例字 |     
 | :------: | :--------: | :----------: | 
 | ah | aʔ  | 读 tah 盒 ah |
