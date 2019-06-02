@@ -21,7 +21,7 @@
 
 ---
 name: Pouleng
-version: "2019.5.31.1"
+version: "2019.6.2.1"
 use_preset_vocabulary: false
 sort: by_weight
 ...
@@ -8094,6 +8094,7 @@ sort: by_weight
 袂認	be5 ning5
 [勿會]認	be5 ning5
 盡穧	zing5 ne5
+盡価	zing5 ne5
 盡少	zing5 zieu3
 尿急	dieu5 gih6
 刺散	ci4 lang4
@@ -11058,6 +11059,10 @@ Android	eng1 zorh6
 蠓帳	mang3 nieu4
 蠓香	mang3 ngieu1
 蠓香	mang3 ieu1
+蠓澍	mang3 cy2
+電蠓香	deng5 mang3 ngieu1
+蠓香片	mang3 ngieu1 peng4
+六六粉	loeh7 loeh7 hong3
 草芯	cau3 ling1
 拉壺	lor2 ou2
 淤壺	y1 ou2
@@ -12507,9 +12512,9 @@ Android	eng1 zorh6
 粉精	hong3 ning1
 粉心	hong3 ning1
 蚮石	dyor5 lieu2
-花蛤	hua3 ah6
+花蛤	hua1 ah6
 [花蛤]	hua3
-花蛤殼	hua3 ah6 kah6
+花蛤殼	hua1 ah6 kah6
 蛤蜊	gah6 li2
 烏賊船	ou1 leh7 long2
 烏賊墨	ou1 leh7 bah7
@@ -14188,9 +14193,9 @@ CT	ci1 ti4
 死仔	si3 ia3
 死仔乾	si3 ia3 gua1
 天罡	teng1 ngorng1
-天罡摜	teng1 ngorng1 gua1
+天罡摜	teng1 ngorng1 gua5
 天罡	teng1 orng1
-天罡摜	teng1 orng1 gua1
+天罡摜	teng1 orng1 gua5
 阿舍	a1 lia4
 舍人囝	sia4 ling2 ngyor3
 舍人囝	sia4 ling2 yor3
@@ -16041,7 +16046,7 @@ CT	ci1 ti4
 丑牛	tiu3 gu2
 寅虎	ing2 hou3
 卯兔	bau3 tou4
-辰龍	sing2 loeng3
+辰龍	sing2 loeng2
 巳蛇	si5 syor2
 午馬	gou3 bor3
 未羊	bi5 ieu2
@@ -16849,7 +16854,8 @@ Z	zei4
 德州	deh6 ziu1
 登封	deng1 horng1
 電白	deng5 beh7
-钓鱼岛	dieu4 y2 lor3
+釣魚島	dieu4 y2 lor3
+釣魚臺	dieu4 y2 lai2
 東方	dorng1 horng1
 東莞	dorng1 guang3
 東海	dorng1 ngai3
@@ -17119,7 +17125,61 @@ Z	zei4
 南通	nang2 torng1
 南投	nang2 dau2
 南雄	nang2 hoeng2
-南陽	nang3=2 ngyorng2
+南陽	nang2 ngyorng2
+内蒙古	due5 morng2 ngou3
+嫩江	noeng3 ngang1
+寧波	neng2 bor1
+寧德	neng2 deh6
+寧化	neng2 hua4
+寧夏	neng2 ha5
+寧遠	neng2 oeng3
+甌海	au1 hai3
+盤錦	buang2 ging3
+番禺	huang1 gy5
+攀枝花	phang1 zi1 hua1
+沛縣	pue4 ge5
+澎湖	porng2 ngou2
+蓬萊	borng2 lai2
+平頂山	bing2 deng3 nang1
+屏東	bing2 norng1
+屏南	bing2 nang2
+平遥	bing2 ieu2
+浦城	pou3 lia2
+浦東	pou3 lorng1
+普洱	pou3 zi3
+普寧	pou3 neng2
+普陀	pou3 dor2
+齊齊哈爾	ze2 ze2 hah6 zi3
+潛江	zieng2 ngang1
+黔江	gieng2 ngang1
+秦皇島	zing2 horng2 dor3
+欽州	king1 niu1
+青島	cing1 dor3
+青海	cing1 hai3
+清流	cing2 liu2
+青浦	cing1 pou3
+瓊海	kyng2 hai3
+曲阜	koeh6 hu5
+衢州	gy2 liu1
+泉港	soeng2 gang3
+全州	zoeng2 niu1
+泉州	soeng2 niu1
+饒平	zieu2 bing2
+日喀則	zih7 kah6 zeh6
+日照	zih7 zieu4
+汝城	zy3 lia2
+如皋	zy2 gor1
+汝南	zy3 nang2
+乳山	zy3 lang1
+汝陽	zy3 yorng2
+瑞安	sui5 ang1
+瑞金	sui5 ging1
+三都	sang1 dou1
+三門峽	sang1 mong1 hieh7
+三明	sanh1 ming2
+三水	sang1 sui3
+三亞	sang1 nga4
+
 
 # 福建地名
 上逕	syorng4 ngia4
