@@ -10,7 +10,7 @@
 schema:
   schema_id: Pouleng
   name: 興化韻莆音
-  version: "2019.6.6.1"
+  version: "2019.6.26.1"
   author:
     - 文本：芽油 <963737435@qq.com> 
     - 程序：子善
@@ -108,6 +108,7 @@ speller:
     - derive/ieng/ien/
     - derive/ung/un/
     - derive/uang/uan/
+    #
     
    
     
