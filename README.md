@@ -13,9 +13,9 @@ Rime使用[具体教程](https://laubonghaudoi.github.io/dialects/)
 
 ### 声母
 
-| 兴拼 | 国际音标 | 例字 |     
-| :------: | :--------: | :----------: | 
-| b |  p  | 白 ba 墨 bah | 
+| 兴拼 | 国际音标 | 例字 |
+| :------: | :--------: | :----------: |
+| b |  p  | 白 ba 墨 bah |
 | p |  pʰ  | 浮 pu 蜂 pang |
 | m |  m  | 名 mia 满 mua |
 | d |  t  | 大 dua 德 deh |
@@ -34,8 +34,8 @@ Rime使用[具体教程](https://laubonghaudoi.github.io/dialects/)
 ### 韵母
 
 #### 阴声韵
-| 兴拼 | 国际音标 | 例字 |     
-| :------: | :--------: | :----------: | 
+| 兴拼 | 国际音标 | 例字 |
+| :------: | :--------: | :----------: |
 | a |  a  | 生 sa 家 ga |
 | or |  ɒ  | 三 sor 爬 bor |
 | ae |  ɛ  | 十 sae 哂 sae |
@@ -52,13 +52,13 @@ Rime使用[具体教程](https://laubonghaudoi.github.io/dialects/)
 | ieu | ieu  | 药 ieu 姜 gieu |
 | iu | iu  | 油 iu 酒 ziu |
 | ua | ua  | 花 hua 话 ua |
-| ue | ue  | 火 hue 软 nue |
+| ue | ue | 火 hue 软 nue |
 | ui | ui  | 水 zui 雷 lui |
 | yor | yɒ  | 纸 zyor 蚮 dyor |
 
 #### 阳声韵
-| 兴拼 | 国际音标 | 例字 |     
-| :------: | :--------: | :----------: | 
+| 兴拼 | 国际音标 | 例字 |
+| :------: | :--------: | :----------: |
 | ang | aŋ  | 东 dang 红 ang |
 | orng | ɒŋ  | 工 gorng 丰 porng |
 | eng | ɛŋ  |  边 beng 信 seng |
@@ -73,8 +73,8 @@ Rime使用[具体教程](https://laubonghaudoi.github.io/dialects/)
 | 声化韵ng | ŋ̍  |  黄 ng 方 hng |
 
 #### 入声韵
-| 兴拼 | 国际音标 | 例字 |     
-| :------: | :--------: | :----------: | 
+| 兴拼 | 国际音标 | 例字 |
+| :------: | :--------: | :----------: |
 | ah | aʔ  | 读 tah 盒 ah |
 | orh | ɒʔ  | 木 borh 曝 porh |
 | eh | ɛʔ  | 热 zeh 踢 teh |
@@ -91,8 +91,10 @@ Rime使用[具体教程](https://laubonghaudoi.github.io/dialects/)
 #### 声调标记方法示例
 使用时不需要输入声调，候选字会附带调号以提供辨识，如「兴」hing1。
 
-| 调类 | 调值 | 例字/调号 |     
-| :------: | :--------: | :----------: | 
+另外莆仙话还有一个声调用在人称代词，并且伴有喉塞音，这里把它标记成第八调，如「我」guoh8。
+
+| 调类 | 调值 | 例字/调号 |
+| :------: | :--------: | :----------: |
 | 阴平 |  533 | 诗 si1 |
 | 阳平 | 13  | 时 si2 |
 | 上声 | 453  | 始 si3 |
@@ -111,43 +113,44 @@ Rime使用[具体教程](https://laubonghaudoi.github.io/dialects/)
 容错是允许一部分键位错误，如把「安 ang」打成「am」,也是能打出这个字的。
 
 #### 类普拼式
-| 原码 | 模糊码 | 例字 |
+| 原码 | 模糊码 | 例字及模糊打法 |
 | :------: | :--------: | :----------: | 
-| y | v  | 鱼 |
-| au | ao | 豆 |
-| ieng | ian | 咸 |
-| ieng | yan | 盐 |
-| ieu | iao | 药 |
-| yorng | iong | 伤 |
-| ia | ya | 野 |
-| i | yi | 衣 |
-| iu | you | 游 |
-| y | yu | 于 |
-| uang | wan | 弯 |
-| ue | wei | 丸 |
-| ui | wui | 为 |
-| ua | wa | 画 |
-| u | wu | 污 |
+| y | v  | 鱼  hv| 
+| au | ao | 豆  dao |
+| ieng | ian | 咸  gian |
+| ieng | yan | 盐  yan |
+| ieu | iao | 药 iao |
+| yorng | iong | 伤 siong |
+| ia | ya | 野 ya |
+| i | yi | 衣  yi |
+| iu | you | 游 you |
+| y | yu | 于 yu |
+| uang | wan | 弯 wan |
+| ue | wei | 丸  wei |
+| ui | wui | 为  wui |
+| ua | wa | 画 wa |
+| u | wu | 污 wu |
 
 #### 简码
-| 原码 | 模糊码 | 例字 |
-| :------: | :--------: | :----------: | 
-| yor | yo | 蚁 |
-| yor | io | 艾 |
-| yorng | yong | 强 |
-| yorng | iong | 厂 |
-| yorh | yoh | 约 |
-| orh | oq | 国 |
-| zyor | jo | 纸 |
-| zyorng | jong | 章 |
-| ung | ng | 囥 |
- 
+| 原码 | 模糊码 | 例字及模糊打法 |
+| :------: | :--------: | :----------: |
+| yor | yo | 蚁  hyo |
+| yor | io | 艾 hio |
+| yorng | yong | 强 gyong |
+| yorng | iong | 厂 ciong |
+| yorh | yoh | 约 yoh |
+| orh | oq | 国 goq |
+| zyor | jo | 纸 jo |
+| zyorng | jong | 章 jong |
+| ung | ng | 囥 kng |
+
 #### 鼻音韵尾简化
+
 鼻音韵尾可以略去g，如「安 ang」可用「an」键入，以此类推。
 
 #### 颚化
 | 原码 | 模糊码 | 例字 |
-| :------: | :--------: | :----------: | 
+| :------: | :--------: | :----------: |
 | zi | ji | 字 |
 | ci | qi | 饲 |
 | si | xi | 舌 |
